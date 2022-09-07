@@ -256,27 +256,37 @@ p {
 
 /******* Media Queries *******/
 @media screen and (min-width: 1441px) and (max-width: 1600px) {
+
+    html,
     body {
-        font-size: 24px;
+        font-size: 20px;
         background-size: 120rem;
-    }
-    .header-div, .mode-div, .output-div {
-        margin: 0 10rem;
-    }
-    .begin-btn {
-        margin: 0 45rem;
     }
 }
 
 @media screen and (min-width: 1281px) and (max-width: 1440px) {
     body {
-        font-size: 20px;
+        font-size: 18.4px;
         background-size: 105rem;
     }
-    .header-div, .mode-div, .output-div {
+    .header-div, .mode-div{
         margin: 0 5rem;
+    }
+    .output-div {
+        margin: 0 2rem;
     }
     .begin-btn {
         margin: 0 40rem;
+    }
+}
+
+@media screen and (min-width: 961px) and (max-width: 1024px) {
+
+    html,
+    body {
+        font-size: 12px;
+    }
+    .header-div, .mode-div{
+        margin: 0 2.5rem;
     }
 }
